@@ -1,0 +1,6 @@
+[build]
+  command = "npm install && npm run build"
+  publish = "build"  # Modifie ce chemin en fonction du répertoire de publication de ton projet (par exemple, "dist" pour Vue)
+
+[build.environment]
+  NODE_VERSION = "14"
